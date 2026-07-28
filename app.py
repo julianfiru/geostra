@@ -13,8 +13,10 @@ def get_base64_image(image_path):
 import pytz
 from datetime import datetime
 
+
+
 # ==============================================================================
-# AUTO-LAUNCHER IF RUN WITH 'python app_local.py' DIRECTLY
+# AUTO-LAUNCHER IF RUN WITH 'python app_local.py' DIRECTLY -
 # ==============================================================================
 if not st.runtime.exists():
     from streamlit.web import cli as stcli
