@@ -1927,7 +1927,7 @@ if btn and uploaded_files:
         total_pb.progress(int((file_idx + 1) / n_files * 100))
 
     st.session_state['batch_running'] = False
-    st.success(f'Batch selesai! {len(st.session_state['all_results'])} area berhasil diproses.')
+    st.success(f'Batch selesai! {len(st.session_state["all_results"])} area berhasil diproses.')
     st.balloons()
 
 # ══════════════════════════════════════════════════════════════
