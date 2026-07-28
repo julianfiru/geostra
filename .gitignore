@@ -1,0 +1,11 @@
+__pycache__/
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.pdf
+.env
+venv/
+smt6/
+SIG_Deteksi_Bangunan/
