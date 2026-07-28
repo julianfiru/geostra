@@ -357,7 +357,7 @@ header[data-testid="stHeader"] {
 }
 </style>""", unsafe_allow_html=True)
 
-DRIVE_BASE = r'c:\private_julian\kuliah\semester 6\semester 6\project_qgis\SIG_Deteksi_Bangunan'
+DRIVE_BASE = r'./SIG_Deteksi_Bangunan'
 DRIVE_BATCH = os.path.join(DRIVE_BASE, 'batch_results')
 os.makedirs(DRIVE_BATCH, exist_ok=True)
 TEMP = os.path.join(os.getcwd(), 'temp')
