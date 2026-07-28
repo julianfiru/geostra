@@ -11,3 +11,4 @@ matplotlib
 reportlab
 numpy
 pillow
+pytz
